@@ -1,6 +1,6 @@
 variables:
   location: "norwayeast"
-  ManagementGroupPrefix: "alz"
+  ManagementGroupPrefix: "MG-L1-Sandbox"
   serviceConnectionName: "AMBA-Service-Connection"
 
 pool:
