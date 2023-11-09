@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "MG-L1-Sandbox"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "MG-L1-Sandbox"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "MG-L1-Sandbox"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "MG-L1-Sandbox"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "MG-L1-Sandbox"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "MG-L1-Sandbox"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -27,7 +27,7 @@
       "value": "Yes"
     },
     "enableAMBALandingZone": {
-      "value": "Yes"
+      "value": "No"
     },
     "enableAMBAManagement": {
       "value": "Yes"
@@ -49,14 +49,14 @@
           }
         },
         "ALZMonitorResourceGroupLocation": {
-          "value": "eastus"
+          "value": "uksouth"
         }
       }
     },
     "policyAssignmentParametersServiceHealth": {
       "value": {
         "ALZMonitorActionGroupEmail": {
-          "value": "action@mail.com"
+          "value": "phil@philrice.uk"
         },
         "ResHlthUnhealthyAlertState": {
           "value": "true"
