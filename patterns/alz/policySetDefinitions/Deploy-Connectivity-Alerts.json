@@ -35,7 +35,7 @@
       },
       "ALZMonitorResourceGroupLocation": {
         "type": "String",
-        "defaultValue": "centralus",
+        "defaultValue": "uksouth",
         "metadata": {
           "displayName": "ALZ Monitor Resource Group Location",
           "description": "Location of the resource group where the ALZ Monitor resources will be deployed"

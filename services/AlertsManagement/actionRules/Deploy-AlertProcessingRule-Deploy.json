@@ -41,7 +41,7 @@
           "displayName": "Resource Group Location",
           "description": "Location of the Resource group the alert is placed in"
         },
-        "defaultValue": "centralus"
+        "defaultValue": "uksouth"
       },
       "ALZMonitorActionGroupEmail": {
         "type": "String",

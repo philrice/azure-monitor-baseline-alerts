@@ -57,7 +57,7 @@
     - name: entityname
       operator: include
       values:
-      - lp-cl-sa-centralus-queue
+      - lp-cl-sa-uksouth-queue
     threshold: 3000000000.0
     autoMitigate: false
 - name: NamespaceCpuUsage
