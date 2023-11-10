@@ -86,7 +86,7 @@
           ],
           "type": "Microsoft.Insights/activityLogAlerts",
           "name": "ActivityUDRUpdate",
-          "existenceScope": "resourcegroup",
+          "existenceScope": "resourceGroup",
           "resourceGroupName": "[[parameters('alertResourceGroupName')]",
           "deploymentScope": "subscription",
           "existenceCondition": {
