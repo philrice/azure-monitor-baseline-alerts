@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "MG-L1-Sandbox"
+      "value": "49145c70-344f-41e8-a3ec-172bb7b62b87"
     },
     "platformManagementGroup": {
-      "value": "MG-L1-Sandbox"
+      "value": "49145c70-344f-41e8-a3ec-172bb7b62b87"
     },
     "IdentityManagementGroup": {
-      "value": "MG-L1-Sandbox"
+      "value": "49145c70-344f-41e8-a3ec-172bb7b62b87"
     },
     "managementManagementGroup": {
-      "value": "MG-L1-Sandbox"
+      "value": "49145c70-344f-41e8-a3ec-172bb7b62b87"
     },
     "connectivityManagementGroup": {
-      "value": "MG-L1-Sandbox"
+      "value": "49145c70-344f-41e8-a3ec-172bb7b62b87"
     },
     "LandingZoneManagementGroup": {
-      "value": "MG-L1-Sandbox"
+      "value": "49145c70-344f-41e8-a3ec-172bb7b62b87"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
