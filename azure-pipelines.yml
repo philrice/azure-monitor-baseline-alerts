@@ -8,7 +8,7 @@ pool:
 
 steps:
   - task: AzureCLI@2
-    displayName: "Deploy AMBA ARM template"
+    displayName: "Deploy AMBA ARM template to Azure"
     inputs:
       azureSubscription: ${{ variables['serviceConnectionName'] }}
       scriptType: bash
