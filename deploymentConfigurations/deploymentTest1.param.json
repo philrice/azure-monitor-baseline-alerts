@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "MG-L1-Sandbox"
+      "value": "MG-L1"
     },
     "platformManagementGroup": {
       "value": "MG-L1-Sandbox"
