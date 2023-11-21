@@ -2,6 +2,7 @@ variables:
   location: "uksouth"
   ManagementGroupPrefix: "MG-L1-Sandbox"
   serviceConnectionName: "AMBA-Service-Connection"
+  parametersFile: "https://raw.githubusercontent.com/philrice/azure-monitor-baseline-alerts/main/deploymentConfigurations/deploymentTest1.param.json"
 
 pool:
   vmImage: ubuntu-latest
@@ -14,4 +15,4 @@ steps:
       scriptType: bash
       scriptLocation: inlineScript
       inlineScript: |
-        az deployment mg create --template-uri https://raw.githubusercontent.com/philrice/azure-monitor-baseline-alerts/main/patterns/alz/alzArm.json --location $(location) --management-group-id $(ManagementGroupPrefix) --parameters https://raw.githubusercontent.com/philrice/azure-monitor-baseline-alerts/main/deploymentConfigurations/deploymentTest1.param.json
+        az deployment mg create --template-uri https://raw.githubusercontent.com/philrice/azure-monitor-baseline-alerts/main/patterns/alz/alzArm.json --location $(location) --management-group-id $(ManagementGroupPrefix) --parameters $(parametersFile)
